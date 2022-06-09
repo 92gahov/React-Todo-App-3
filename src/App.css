@@ -22,6 +22,24 @@ textarea {
   box-shadow: 4px 2px 18px 0 #111113;
 }
 
+.date {
+  margin-top: 18px;
+}
+
+.date input {
+  font-size: 18px;
+  border: 2px solid black;
+  padding: 6px;
+  border-radius: 6px;
+  font-family: 'Indie Flower', cursive;
+  -webkit-box-shadow: 4px 2px 18px 0 #111113;
+  -moz-box-shadow: 4px 2px 18px 0 #111113;
+  box-shadow: 4px 2px 18px 0 #111113;
+  background-color: #daeafa;
+  color: black;
+  text-align: center;
+}
+
 .add-btn {
   margin-top: 6px;
   margin-bottom: 30px;
@@ -52,13 +70,33 @@ textarea {
 
 .output {
   display: flex;
-  width: 60%;
+  width: 64%;
   margin: 16px auto;
   padding: 6px;
   border: 1px solid black;
   border-radius: 8px;
   background-color: #bec0c5;
   box-shadow: rgba(0, 0, 0, 0.74) 0px 10px 36px 0px, rgba(0, 0, 0, 0.74) 0px 0px 0px 1px;
+}
+
+.cal-icon {
+  padding: 22px 6px;
+}
+
+.cal-icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.date-output {
+  padding: 4px 4px;
+  width: 140px;
+}
+
+.date-output p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 18px;
+  color: black;
 }
 
 .event-info {
@@ -149,4 +187,43 @@ textarea {
   font-size: 20px;
   color: black;
   font-weight: bold;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.664);
+  text-align: center;
+}
+
+.today-event {
+  background-color: #edfaef;
+  width: 460px;
+  padding: 18px 8px;
+  text-align: center;
+  position: relative;
+  margin: 200px auto;
+  border-radius: 12px;
+}
+
+.today-event p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+}
+
+.close {
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+.close:hover {
+  cursor: pointer;
+  color: red;
 }
