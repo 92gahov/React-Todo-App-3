@@ -54,7 +54,7 @@ const Form = ({ setInputText, todos, setTodos, inputText, inputDate, setInputDat
                 <div>
                     <textarea ref={input}
                         value={inputText}
-                        onChange={inputTextHandler} cols="44" rows="3" placeholder="Make event..."></textarea>
+                        onChange={inputTextHandler} cols="44" rows="3" placeholder="Make an event..."></textarea>
                 </div>
                 <div className="date">
                     <input type="date"

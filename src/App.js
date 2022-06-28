@@ -48,9 +48,9 @@ function App() {
 
   let title = "";
   if (todos.length === 1) {
-    title = "todo";
+    title = "event";
   } else {
-    title = "todos";
+    title = "events";
   };
 
   function closeModal() {
