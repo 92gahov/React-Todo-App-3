@@ -1,3 +1,17 @@
+ToDo App made with React. I'm using json-server and save the data in .json file.
+
+npm install -g json-server
+
+And also:
+
+npm install -g concurrently
+
+Make change in package.json file:
+
+"scripts": { "start-server": "npx json-server --watch ./back-end/db.json --port 3001", "start-react": "react-scripts start", "start": "concurrently "npm run start-server" "npm run start-react" ", "build": "react-scripts build", "test": "react-scripts test", "eject": "react-scripts eject" }
+
+In the terminal write: npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
